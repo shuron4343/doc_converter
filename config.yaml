@@ -1,0 +1,20 @@
+# Конфигурация для doc_converter
+output_format: markdown
+encoding: utf-8
+preserve_formatting: true
+include_images: true
+max_image_size: 1024
+table_format: grid
+
+# Настройки для docling
+docling:
+  preserve_structure: true
+  extract_images: true
+  image_format: png
+  table_style: grid
+
+# Настройки логирования
+logging:
+  level: INFO
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  file: null  # null для вывода в консоль
